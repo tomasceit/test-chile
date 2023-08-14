@@ -78,6 +78,7 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  flex-direction: column;
 }
 
 .center::before {
@@ -102,6 +103,11 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.buttons {
+  z-index: 1500;
+  margin-top: 1rem;
 }
 
 .logo {
