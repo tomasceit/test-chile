@@ -13,7 +13,7 @@ export default function Home() {
   const [filePDF, setFilePDF] = React.useState(null);
 
   const handleSelectFilePDF = async (event) => {
-    console.log('PDF: ', (event.target.files[0]));
+    console.log('PDF: ', (event.target.files[0]))
     setFilePDF(event.target.files[0]);
   };
 
